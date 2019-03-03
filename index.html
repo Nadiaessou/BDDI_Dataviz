@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+    <head>
+        <title>IMMERSION</title>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/png" href="https://nadia-essoubai.fr/dataviz/assets/favicon.png" />
+        <meta name="description" content="Projet Dataviz sur les prélèvements annuels d'eau douce dans le monde" />
+        <link  href="css/styles.css" rel="stylesheet"/>
+
+        <meta property="og:title" content="IMMERSION" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.nadia-essoubai.fr/dataviz" />
+        <meta property="og:image" content="https://nadia-essoubai.fr/dataviz/assets/apercu.png" />
+        <meta name="theme-color" content="#010506" />
+    </head>
+
+    <body>
+            <audio src="assets/son.mp3" autoplay>
+              </audio>
+        <div id="boutons">
+            <div class="bouton1"></div>
+            <div class="bouton2"></div>
+        </div>
+        <!-- PAGE ACCUEIL -->
+        <section id="home">
+            <video poster="assets/fond.png" id="bgvid2" playsinline autoplay muted loop>
+                <source src="assets/fond_ecran1.mp4" type="video/mp4">
+            </video>
+            <div class="center">
+                <h1>IMMERSION</h1>
+                <p class="intro">
+                    Projet de Data Visualisation sur les prélèvements annuels d'eau douce dans le monde.
+                    <br><span>Combien les pays ont-ils consommé en eau douce en 2014 ?</span>
+                </p>
+                <br><img src="assets/icone_scrol_anime.gif" alt="button scroll" class="scroll" width="30px">
+                <br><span class="scrollText">scroll</span>
+            </div>
+            <div class="infos">
+                <p>Designé par <a href="https://www.behance.net/robichonso67df" target="_blank">Solène Robichon</a> et développé par <a href="https://nadia-essoubai.fr/" target="_blank">Nadia Essoubai</a></p>
+            </div>
+        </section>
+
+
+
+        <!-- CONTENU HTML -->
+        <section id="container">
+            <div class="goutte">
+                <img src="assets/icone_goutte.svg" alt="goutte" class="imgGoutte">
+            </div>
+            <video poster="assets/fond_ecran2.png" id="bgvid" playsinline autoplay muted loop>
+                <source src="assets/fond_ecran2.mp4" type="video/mp4">
+            </video>
+            <div id="paysSelect">
+                <p class="dataName">Séléctionnez un pays sur la carte</p>
+                <p class="dataYear">0%</p>
+            </div>
+            <div id="pays">
+                <img src="assets/icone_map.svg" alt="map" class="map">
+                <p class="australia pt point"></p>
+                <p class="mexico pt point"></p>
+                <p class="neth pt point"></p>
+                <p class="tunisia pt point"></p>
+                <p class="asia pt point"></p>
+            </div>
+            <div class="annee">
+                <p>2014</p>
+            </div>
+            <div id="soustitre">
+                <p>De retrait annuel en eau douce sur ses ressources internes...</p>
+                <p class="source">Source: <a href="https://data.worldbank.org/" target="_blank">data.worldbank.org</a></p>
+            </div>
+        </div>
+
+       
+        
+        <!--SCRIPT-->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.ripples-min.js"></script>
+        <!--<script type="text/javascript" src="js/animAccueil.js"></script>-->
+        <!--THREE JS-->
+        <script src="js/three.min.js"></script>
+        <script type="text/javascript" src="js/animPage.js"></script>
+    </body>
+
+</html>
+
+

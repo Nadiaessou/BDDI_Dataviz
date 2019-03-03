@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Annual freshwater withdrawals",
+    "Code": "total (% of internal resources)",
+    "Country Name": "ER.H2O.FWTL.ZS",
+    "Country": "Australie",
+    "1990 [YR1990]": "AUS",
+    "Year": 3.14024390243902
+  },
+  {
+    "Name": "Annual freshwater withdrawals",
+    "Code": "total (% of internal resources)",
+    "Country Name": "ER.H2O.FWTL.ZS",
+    "Country": "Mexique",
+    "1990 [YR1990]": "MEX",
+    "Year": 20
+  },
+  {
+    "Name": "Annual freshwater withdrawals",
+    "Code": "total (% of internal resources)",
+    "Country Name": "ER.H2O.FWTL.ZS",
+    "Country": "Pays-Bas",
+    "1990 [YR1990]": "NLD",
+    "Year": 97.4545454545455
+  },
+  {
+    "Name": "Annual freshwater withdrawals",
+    "Code": "total (% of internal resources)",
+    "Country Name": "ER.H2O.FWTL.ZS",
+    "Country": "Tunisie",
+    "1990 [YR1990]": "TUN",
+    "Year": 76.6865315852205
+  },
+  {
+    "Name": "Annual freshwater withdrawals",
+    "Code": "total (% of internal resources)",
+    "Country Name": "ER.H2O.FWTL.ZS",
+    "Country": "Asie du sud",
+    "1990 [YR1990]": "TSA",
+    "Year": 44.7786998616874
+  }
+]
